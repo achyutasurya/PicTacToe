@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Pic Tac Toe</string>
+    <string name="yellow">yellow</string>
+    <string name="red">red</string>
+    <string name="add_image">Add Image</string>
+    <string name="imageisclicked">Image is clicked</string>
+    <string name="noofgameplayed">Games Played - </string>
+
+    <string name="rate_dialog_title">Rate us</string>
+    <string name="rate_dialog_message">If you enjoy playing this app, please support us by giving a 5-star rating . Thank you!</string>
+    <string name="rate_dialog_ok">Rate Now</string>
+    <string name="rate_dialog_cancel">Later</string>
+    <string name="rate_dialog_no">Cancel</string>
+    <string name="two_players">Two Players</string>
+    <string name="single_player">Single Player</string>
+</resources>

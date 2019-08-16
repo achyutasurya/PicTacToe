@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.widget.RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back1"
+    tools:context="com.surya.pictactoe.MainActivity">
+
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/button7"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:onClick="playNow"
+        android:text="@string/two_players" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="letsCrop"
+        android:tag="1"
+        android:text="@string/add_image"
+        android:layout_alignBaseline="@+id/button"
+        android:layout_alignBottom="@+id/button"
+        android:layout_alignRight="@+id/redImageView"
+        android:layout_alignEnd="@+id/redImageView"
+        android:layout_marginRight="10dp"
+        android:layout_marginEnd="10dp" />
+
+    <!--yellow Image == tag == 2
+        Red Image == tag == 1-->
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="letsCrop"
+        android:tag="2"
+        android:text="@string/add_image"
+        android:layout_above="@+id/imageView10"
+        android:layout_alignRight="@+id/yellowImageView"
+        android:layout_alignEnd="@+id/yellowImageView"
+        android:layout_marginRight="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="14dp" />
+
+    <ImageView
+        android:id="@+id/redImageView"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        app:srcCompat="@drawable/red"
+        android:tag="1"
+        android:layout_alignTop="@+id/yellowImageView"
+        android:layout_toRightOf="@+id/imageView10"
+        android:layout_toEndOf="@+id/imageView10"
+        android:layout_marginLeft="25dp"
+        android:layout_marginStart="25dp"/>
+
+    <ImageView
+        android:id="@+id/yellowImageView"
+        android:tag="2"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        app:srcCompat="@drawable/yellow"
+        tools:layout_editor_absoluteX="49dp"
+        tools:layout_editor_absoluteY="136dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginBottom="81dp"
+        android:layout_above="@+id/imageView10"
+        android:layout_toLeftOf="@+id/imageView10"
+        android:layout_toStartOf="@+id/imageView10" />
+
+
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"/>
+
+    <ImageView
+        android:id="@+id/soundicon"
+        app:srcCompat="@drawable/soundoff"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/rateIcon"
+        android:layout_alignRight="@+id/button3"
+        android:layout_alignEnd="@+id/button3" />
+
+    <ImageView
+        android:id="@+id/rateIcon"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        app:srcCompat="@drawable/rating"
+        android:layout_below="@+id/button4"
+        android:layout_alignLeft="@+id/button"
+        android:layout_alignStart="@+id/button"
+        android:layout_marginTop="33dp" />
+
+    <TextView
+        android:id="@+id/gamesPlayedMainActivity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/textColor" />
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_alignLeft="@+id/button4"
+        android:layout_alignStart="@+id/button4"
+        android:layout_below="@+id/imageView10"
+        android:layout_marginTop="72dp"
+        android:onClick="singleGame"
+        android:text="@string/single_player" />
+
+
+</android.widget.RelativeLayout>

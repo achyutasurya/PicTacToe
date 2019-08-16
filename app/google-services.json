@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "49396065594",
+    "firebase_url": "https://pic-tac-toe-a7086.firebaseio.com",
+    "project_id": "pic-tac-toe-a7086",
+    "storage_bucket": "pic-tac-toe-a7086.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:49396065594:android:70dffa67df2a72ee",
+        "android_client_info": {
+          "package_name": "com.surya.pictactoe"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "49396065594-lp983mq1g8dpfk8u26mdjp0qh1l29omn.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.surya.pictactoe",
+            "certificate_hash": "c98f0d2c723a3a8ffb158f5db21b119959c91946"
+          }
+        },
+        {
+          "client_id": "49396065594-b5deccni7crr29uaebf9sf504ehg54e0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB8wbg5GNOtpQ66PU0BFn59wFbDL0Rffyg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "49396065594-b5deccni7crr29uaebf9sf504ehg54e0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
